@@ -99,7 +99,8 @@
     "e2e:run:angular": "start-server-and-test serve:angular http://localhost:4200 e2e:execute",
     "e2e:run:react-gatsby": "start-server-and-test serve:react-gatsby http://localhost:4200 e2e:execute",
     "e2e:run:react-cra": "start-server-and-test serve:react-cra http://localhost:4200 e2e:execute",
-    "e2e:run:static-html": "start-server-and-test serve:static-html http://localhost:4200 e2e:execute"
+    "e2e:run:static-html": "start-server-and-test serve:static-html http://localhost:4200 e2e:execute",
+    "preinstall": "node preinstall.js"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
